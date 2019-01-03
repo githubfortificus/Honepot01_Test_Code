@@ -8,7 +8,7 @@ def main():
 
     mysqldb_cursor = mysqldb.cursor()
 
-    file = open("../RAW/test.log", "r")
+    file = open("../RAW/entries.log", "r")
 
     for line in file:
         text = line.split()
